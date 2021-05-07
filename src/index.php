@@ -1,6 +1,6 @@
 <?php
 echo "Inside K8s with MySQL Demo for Kasteel <br>";
-$conn = new mysqli("localhost", "root", "passwd", "my_db");
+$conn = new mysqli("127.0.0.1", "root", "passwd", "my_db");
 // Check connection
 if ($conn->connect_error) {
 	die("Connection failed: " . $conn->connect_error);
